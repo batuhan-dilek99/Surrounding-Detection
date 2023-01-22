@@ -1,17 +1,16 @@
 plugins {
     id 'com.android.application'
-    id 'com.android.application'
     id 'com.chaquo.python'
 }
 
 android {
     namespace 'com.example.geneyeapplicaiton'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.geneyeapplicaiton"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
         ndk {
